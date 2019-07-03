@@ -1,0 +1,86 @@
+.main-form {
+  margin-left: 20px;
+  width: 555px;
+  height: 400px;
+}
+
+.label {
+  color: #8d8f92;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.name-mail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-column {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  outline: none;
+  padding-left: 20px;
+  color: #8d8f92;
+  font-size: 20px;
+  width: 240px;
+  height: 44px;
+  background-color: #eaeef1;
+  border: none;
+  border-radius: 4px;
+}
+
+textarea {
+  outline: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #8d8f92;
+  font-size: 20px;
+  width: 495px;
+  height: 159px;
+  background-color: #eaeef1;
+  border: none;
+  border-radius: 4px;
+  resize: none;
+}
+
+.form-button {
+  margin-top: 30px;
+  width: 147px;
+  height: 40px;
+  border: 2px solid #23b7a4;
+  background-color: #23b7a4;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.form-button:hover {
+  height: 40px;
+  width: 147px;
+  background: none;
+  color: #3a454d;
+  font-family: "Quattrocento Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  border: 2px solid #8d8f92;
+  border-radius: 4px;
+}
+
+form {
+  padding: 0px 30px;
+  background-color: #ffffff;
+  margin-top: -120px;
+}

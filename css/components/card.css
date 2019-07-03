@@ -1,0 +1,295 @@
+figure {
+  margin: 0;
+}
+
+.name {
+  padding-top: 10px;
+  padding-left: 20px;
+  margin: 0;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.profession {
+  padding-left: 20px;
+  margin-top: -10px;
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+.card-media img {
+  display: block;
+}
+
+.cards {
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.card {
+  width: 25%;
+  position: relative;
+  padding-right: 30px;
+}
+
+.img-content {
+  object-fit: cover;
+}
+
+.card-cover {
+
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 20%;
+  left: 0;
+  right: 7.5%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover .card-media {
+  opacity: 0.4;
+}
+
+.card:hover .card-cover {
+  display: flex;
+}
+
+.card:hover .name {
+  background-color: #3a454d;
+  color: #ffffff;
+}
+
+.card:hover .profession {
+  background-color: #3a454d;
+  color: #ffffff;
+}
+
+.card-body {
+  width: 100%;
+  height: auto;
+  background-color: #e1e6ea;
+}
+
+.team-icon {
+  position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+.team-social:hover {
+  opacity: 0.6;
+}
+.team-social {
+position: relative;
+margin-right:1.5px;
+  width: 50px;
+height: 50px;
+background-color: #3a454d;
+}
+
+/************************************************************/
+
+.name-dark {
+    margin: 0 auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  background-color: #292f36;
+  width: 360px;
+  height: 60px;
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.card-media-dark img {
+  display: block;
+  margin: 0 auto;
+}
+
+.cards-dark {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-dark {
+
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+width:33.33%;
+height: 265px;
+position: relative;
+margin-bottom: 20px;
+}
+
+.img-content-dark {
+  max-width: 360px;
+  height: 265px;
+  object-fit: cover;
+
+}
+
+.card-cover-dark {
+  position: absolute;
+  top: 0;
+  bottom: 23%;
+  left: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-dark:hover .card-cover-dark {
+  display: flex;
+}
+
+.card-dark:hover .card-body-dark {
+  background-color: #3a454d;
+  color: #ffffff;
+}
+
+.card-body-dark {
+
+  display: none;
+  top: 77%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.card-dark:hover .card-body-dark {
+  display: flex;
+}
+
+.plus-dark {
+  width: 20px;
+  height: 20px;
+}
+
+.card-dark:hover .card-media-dark {
+  opacity: 0.5;
+}
+
+.card-dark:hover {
+  cursor: pointer;
+}
+
+/**************************************************************************/
+
+figure {
+  margin: 0;
+}
+
+.card-things {
+  padding-right: 30px;
+  padding-bottom: 60px;
+  text-align: center;
+  width: 25%;
+}
+
+.img-content-things-mobile {
+  width: 30px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.img-content-things {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.card-body-things {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 263px;
+  height: auto;
+}
+
+.grid-things {
+  margin-right: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.things-title {
+  padding-top: 35px;
+  color: #292f36;
+  font-family: "Quattrocento Sans";
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.things-description {
+  color: #8d8f92;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/****************************************************************************/
+
+.img-features {
+  width: 360px;
+  height: 240px;
+}
+
+.features-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+}
+
+.features {
+  padding-top: 10px;
+
+}
+.features-card {
+  padding-right: 30px;
+  width: 33.33%;
+}
+
+
+.features-title {
+  color: #ffffff;
+  font-family: "Quattrocento Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.features-description {
+  width:100%;
+  color: #dcdfe1;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

@@ -1,0 +1,139 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../fonts/icomoon.eot?fis4ej');
+  src:  url('../../fonts/icomoon.eot?fis4ej#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?fis4ej') format('truetype'),
+    url('../../fonts/icomoon.woff?fis4ej') format('woff'),
+    url('../../fonts/icomoon.svg?fis4ej#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-skype:before {
+  color: #fff;
+  font-size: 15px;
+  content: "\e901";
+}
+.icon-pencil2:before {
+  font-size: 48px;
+  color: #23b7a4;
+  content: "\e906";
+}
+.icon-clock:before {
+  font-size: 48px;
+  color: #23b7a4;
+  content: "\e94e";
+}
+.icon-mobile:before {
+  font-size: 48px;
+  color: #23b7a4;
+  content: "\e958";
+}
+.icon-cogs:before {
+  font-size: 48px;
+  color: #23b7a4;
+  content: "\e995";
+}
+.icon-facebook.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\ea90";
+}
+.icon-facebook:before {
+  color: #fff;
+  font-size: 15px;
+  content: "\ea90";
+}
+.icon-facebook.team-icon::before {
+  color: #fff;
+  font-size: 20px;
+  content: "\ea90";
+}
+.icon-twitter:before {
+  color: #fff;
+    font-size: 15px;
+  content: "\ea96";
+}
+.icon-twitter.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\ea96";
+}
+
+.icon-twitter.team-icon::before {
+  color: #fff;
+  font-size: 20px;
+  content: "\ea96";
+}
+
+.icon-dribbble:before {
+  color: #fff;
+    font-size: 15px;
+  content: "\eaa7";
+}
+.icon-dribbble.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\eaa7";
+}
+.icon-behance:before {
+  color: #fff;
+    font-size: 15px;
+  content: "\eaa8";
+}
+.icon-behance.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\eaa8";
+}
+.icon-linkedin2:before {
+  color: #fff;
+    font-size: 15px;
+  content: "\eaca";
+}
+.icon-linkedin2.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\eaca";
+}
+.icon-linkedin2.team-icon:before {
+  color: #fff;
+  font-size: 20px;
+  content: "\eaca";
+}
+.icon-google1:before {
+    font-size: 15px;
+  color: #fff;
+  content: "\e902";
+}
+.icon-google1.soc:before {
+  font-size: 23px;
+  color: #fff;
+  content: "\e902";
+}
+.icon-google:before {
+  color: #fff;
+    font-size: 15px;
+  content: "\e900";
+}
+.icon-google.soc:before {
+  color: #fff;
+  font-size: 23px;
+  content: "\e900";
+}

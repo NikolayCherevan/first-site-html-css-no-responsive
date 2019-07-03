@@ -1,0 +1,22 @@
+header {
+  height: 81px;
+  background-color: #1d2126;
+}
+
+.top-container {
+  height: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-link {
+  color: #23b7a4;
+  border: 2px solid #23b7a4;
+  border-radius: 4px;
+  padding: 7px 10px;
+}
+.main-logo {
+  width: 99px;
+  height: 19px;
+}

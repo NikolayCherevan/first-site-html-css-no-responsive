@@ -1,0 +1,21 @@
+nav a {
+  color: #a4aead;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 42px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  border: 2px solid transparent;
+}
+
+nav a:hover {
+  border-radius: 4px;
+  border: 2px solid #5b6168;
+  text-decoration: none;
+  padding: 7px 10px;
+}
+nav a:last-child {
+  margin-right: 0px;
+}

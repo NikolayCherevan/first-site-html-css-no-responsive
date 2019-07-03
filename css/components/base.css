@@ -1,0 +1,65 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:'Quattrocento Sans','Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+}
+button {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+}
+
+.top-container {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height:auto;
+}
+
+.logo {
+  margin-bottom: -5px;
+  display: block;
+}
+
+a, .link {
+  color: #a4aead;
+  text-decoration: none;
+}
+
+a:hover, .link:hover {
+  color: #a4aead;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1, * + h2, * + h3,* + h4,* + h5,* + h6 {
+  margin:0.67em 0 0 0;
+}
+
+p, ul, ol, figure {
+  margin: 0 0 15px 0;
+}
+
+* + p, * + ul, * + ol, * + figure{
+  margin-top: 15px;
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ul,
+ol > li > ol {
+  margin: 0;
+}
